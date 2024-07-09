@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# STON documentation build configuration file, created by
+# kubesync documentation build configuration file, created by
 # sphinx-quickstart on Fri Jun 13 16:37:06 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -46,8 +46,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'STON Edge Server'
-copyright = '2024, WineSOFT Inc.'
+project = 'kubesync'
+copyright = '2024, Innotree Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -180,7 +180,7 @@ html_static_path = ['sphinxdocsstatic']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'STONdoc'
+htmlhelp_basename = 'kubesync'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -201,8 +201,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'STON.tex', 'STON Documentation',
-   'WineSOFT Inc.', 'manual'),
+  ('index', 'Kubesync.tex', 'Kubesync Documentation',
+   'Innotree Inc.', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -231,8 +231,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'ston', 'STON Documentation',
-     ['WOOSIK MOON'], 1)
+    ('index', 'kubesync', ' Documentation',
+     ['Jaewon Lee'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -245,8 +245,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'STON', 'STON Documentation',
-   'WOOSIK MOON', 'STON', 'STON Edge Server Complete Guide.',
+  ('index', 'kubesync', 'kubesync Documentation',
+   'Jaewon Lee', 'kubesync', 'kubesync Edge Server Complete Guide.',
    'Miscellaneous'),
 ]
 
