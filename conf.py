@@ -246,7 +246,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'kubesync', 'kubesync Documentation',
-   'Jaewon Lee', 'kubesync', 'kubesync Edge Server Complete Guide.',
+   'Jaewon Lee', 'kubesync', 'kubesync Complete Guide.',
    'Miscellaneous'),
 ]
 
