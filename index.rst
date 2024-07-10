@@ -1,53 +1,46 @@
-.. STON Edge Server documentation master file, created by
+.. Kubesync documentation master file, created by
    sphinx-quickstart on Fri Jun 13 16:37:06 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-
-
-STON Edge Server 완벽 가이드
+Kubesync 가이드
 ==========================
 
+:저자: Kubesync 개발팀
+:최신버전: v0.1.0
 
-:저자: STON 개발팀
-:최신버전: v2.9.14
 
-
-1부. STON 기본: 설정 배우기
+1부. Kubesync 기본:
 =============================
 
 .. toctree::
    :maxdepth: 2
 
-   admin/intro
-   admin/getting_started
-   admin/environment
+   base/intro.rst
+   base/install.rst
+   base/environment.rst
 
 
-2부. HTTP 서비스
+2부. 관리 영역
 =============================
 
 .. toctree::
    :maxdepth: 2
 
-   admin/caching_policy
-   admin/caching_purge
-   admin/handling_http_requests
-   admin/origin
-   admin/bypass
-   admin/https
+   management/test1.rst
+   management/test2.rst
 
 
-3부. 관리/운영
+3부. 운영 영역
 =============================
 
 .. toctree::
    :maxdepth: 2
 
-   admin/monitoring_stats
-   admin/snmp
-   admin/log
-   admin/wm
+   operation/monitoring
+   operation/snmp
+   operation/cicd
+   operation/wm
 
 
 4부. 고급기능
@@ -56,14 +49,9 @@ STON Edge Server 완벽 가이드
 .. toctree::
    :maxdepth: 2
 
-   admin/adv_vhost
-   admin/access_control
-   admin/bandwidth_control
-   admin/image
-   admin/video
-   admin/filesystem
-   admin/adv_topics
-   admin/enterprise
+   professional/test1.rst
+   professional/test2.rst
+
    
 
 5부. 부록
@@ -72,9 +60,6 @@ STON Edge Server 완벽 가이드
 .. toctree::
    :maxdepth: 2
 
-   admin/graph
-   admin/stontop
-   admin/cacti
-   admin/dynpage_exception.rst
-   admin/releasenote.rst
-   admin/releasenote_enterprise.rst
+   etc/test1.rst
+   etc/test2.rst
+
